@@ -1,0 +1,11 @@
+/build*/
+/.venv/
+/dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+/update.py
+/export.py
+/time_set-snapshot.zip
