@@ -1,0 +1,8 @@
+include LICENSE README.md CMakeLists.txt check.sh
+recursive-include include *.hpp
+recursive-include src *.cpp *.hpp
+recursive-include cmake *.in
+recursive-include examples *.cpp *.py *.sh
+recursive-include tests *.cpp *.hpp *.py
+recursive-include docs *.md
+recursive-include python py.typed
